@@ -12,7 +12,7 @@ const Navbar = () => {
   }
 
   return (
-    <div className='sticky top-0 grid grid-cols-3 sm:grid-cols-6 p-6 bg-yellow-50 z-50'>
+    <div className='absolute top-0 w-full grid grid-cols-3 sm:grid-cols-6 p-6 bg-white bg-opacity-70 z-50'>
       <div className='flex justify-start items-center gap-2 text-gray-800'>
         <FaSuitcaseRolling className='h-6' />
         <a href="/">
@@ -44,7 +44,7 @@ const Navbar = () => {
       </div>
 
       {
-        <div className={ click ? 'fixed right-0 top-20 w-full h-full duration-500 ease-in md:hidden z-10 bg-orange-100' : 'fixed -right-full top-20 h-full w-full duration-500 ease-out md:hidden z-10'}>
+        <div className={ click ? 'fixed right-0 top-20 w-full h-full duration-500 ease-in md:hidden z-10 bg-white' : 'fixed -right-full top-20 h-full w-full duration-500 ease-out md:hidden z-10'}>
           <ul className='flex flex-col justify-center items-center py-8 text-xl text-gray-800'>
             <li className='py-2 hover:underline hover:decoration-orange-500 hover:underline-offset-4 cursor-pointer hover:text-gray-900'>Home</li>
             <li className='py-2 hover:underline hover:decoration-orange-500 hover:underline-offset-4 cursor-pointer hover:text-gray-900'>About us</li>

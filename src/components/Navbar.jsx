@@ -3,7 +3,6 @@ import { FaSuitcaseRolling } from 'react-icons/fa'
 import { GiAirplaneDeparture } from 'react-icons/gi'
 import { HiOutlineMenu } from 'react-icons/hi'
 import { AiOutlineClose } from 'react-icons/ai'
-import { Link } from 'react-scroll'
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -23,8 +22,8 @@ const Navbar = () => {
 
       <div className='flex justify-start items-center sm:col-span-3 lg:col-span-4'>
         <ul className='hidden sm:flex gap-2 md:gap-6 font-semibold text-sm md:text-base'>
-          <li className='hover:underline hover:decoration-orange-500 hover:underline-offset-4 cursor-pointer'><Link to='home' smooth={true} duration={500} >Home</Link></li>
-          <li className='hover:underline hover:decoration-orange-500 hover:underline-offset-4 cursor-pointer'><Link to='destinations' smooth={true} duration={500} >Destinations</Link></li>
+          <li className='hover:underline hover:decoration-orange-500 hover:underline-offset-4 cursor-pointer'><a href='/'>Home</a></li>
+          <li className='hover:underline hover:decoration-orange-500 hover:underline-offset-4 cursor-pointer'><a href='/destinations' >Destinations</a></li>
           <li className='hover:underline hover:decoration-orange-500 hover:underline-offset-4 cursor-pointer'>About us</li>
           <li className='hover:underline hover:decoration-orange-500 hover:underline-offset-4 cursor-pointer'>Tours</li>
           <li className='hover:underline hover:decoration-orange-500 hover:underline-offset-4 cursor-pointer'>Blog</li>

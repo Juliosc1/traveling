@@ -6,6 +6,8 @@ import sanfranciscoCard from '../assets/sanfranciscoCard.jpg'
 import sanfrancisco from '../assets/sanfrancisco.jpg'
 import helsinkiCard from '../assets/helsinkiCard.jpg'
 import helsinki from '../assets/helsinki.jpg'
+import londonCard from '../assets/londonCard.jpg'
+import london from '../assets/london.jpg'
 
 export const DestinationCard = [
   {
@@ -50,6 +52,17 @@ export const DestinationCard = [
       {tip1: "Visit the historic Suomenlinna Sea Fortress"},
       {tip2: "Enjoy a traditional Finnish sauna"},
       {tip3: "Explore the vibrant Design District"},
+    ]
+  },
+  {
+    name: "London",
+    image: londonCard,
+    largeImg: london,
+    description: "London is a bustling city that's full of surprises. From the iconic red telephone booths to the royal guards outside Buckingham Palace, there's always something new to discover. And don't forget to try some fish and chips or a pint of ale in a cozy pub – it's a British tradition!",
+    tours: [
+      {tip1: "Visit the British Museum"},
+      {tip2: "Explore the Tower of London"},
+      {tip3: "Take a stroll through Hyde Park"},
     ]
   },
 ]

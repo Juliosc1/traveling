@@ -24,8 +24,8 @@ const Navbar = () => {
         <ul className='hidden sm:flex gap-2 md:gap-6 font-semibold text-sm md:text-base'>
           <li className='hover:underline hover:decoration-orange-500 hover:underline-offset-4 cursor-pointer'><a href='/'>Home</a></li>
           <li className='hover:underline hover:decoration-orange-500 hover:underline-offset-4 cursor-pointer'><a href='/destinations' >Destinations</a></li>
-          <li className='hover:underline hover:decoration-orange-500 hover:underline-offset-4 cursor-pointer'>About us</li>
-          <li className='hover:underline hover:decoration-orange-500 hover:underline-offset-4 cursor-pointer'>Tours</li>
+          <li className='hover:underline hover:decoration-orange-500 hover:underline-offset-4 cursor-pointer'><a href='/aboutUs'>About us</a></li>
+          <li className='hover:underline hover:decoration-orange-500 hover:underline-offset-4 cursor-pointer'><a href='/tours'>Tours</a></li>
           <li className='hover:underline hover:decoration-orange-500 hover:underline-offset-4 cursor-pointer'>Blog</li>
         </ul>
       </div>

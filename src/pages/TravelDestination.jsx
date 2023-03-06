@@ -10,7 +10,7 @@ const TravelDestination = () => {
   
   return (
     <div className='h-screen' >
-      <div className='h-screen border-red-700 border-2'>
+      <div className='h-screen'>
       {selectedCityData.map((data) => (
           <div key={data.id} style={{backgroundImage: `url(${data.largeImg})`, backgroundRepeat: 'no-repeat', backgroundSize:"cover", width: "100%"}} className="h-screen text-white">
             <div className='grid grid-cols-1 sm:grid-cols-2 justify-center items-center h-full'>
@@ -27,7 +27,7 @@ const TravelDestination = () => {
                 <button className='flex justify-center items-center bg-orange-500 p-2 rounded-xl w-20 h-10 mt-10 font-semibold shadow-xl hover:scale-105'><a href="/destinations">Back</a></button>
               </div>
               <div className='flex justify-center items-center'>
-                <h1 className='text-4xl font-semibold'>{data.name}</h1>
+                <h1 className='text-5xl font-semibold'>{data.name}</h1>
               </div>
             </div>
           </div>

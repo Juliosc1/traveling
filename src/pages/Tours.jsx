@@ -7,7 +7,7 @@ import NorwayImg from '../assets/norway.jpg'
 
 const Tours = () => {
   return (
-    <div className='flex flex-col justify-center items-center w-full h-screen'>
+    <div className='flex flex-col justify-center items-center w-full h-screen bg-gray-100'>
       <div className='grid grid-cols-1 sm:grid-cols-2 h-full w-full'>
 
         <div className='border-2'></div>

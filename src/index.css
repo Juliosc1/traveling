@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+html {
+  height: 100vh;
+}
+
+body > #root > div {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,6 +15,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 code {

@@ -13,7 +13,7 @@ const Navbar = () => {
   }
 
   return (
-    <div className='absolute top-0 w-full grid grid-cols-3 sm:grid-cols-6 p-6 bg-white bg-opacity-70 z-50'>
+    <div className='sticky top-0 w-full grid grid-cols-3 sm:grid-cols-6 p-6 bg-white bg-opacity-70 z-50'>
       <div className='flex justify-start items-center gap-2 text-gray-800'>
         <FaSuitcaseRolling className='h-6' />
         <a href="/">

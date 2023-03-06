@@ -3,7 +3,7 @@ import romeCard from '../assets/romeCard.jpg'
 import sanfranciscoCard from '../assets/sanfranciscoCard.jpg'
 import helsinkiCard from '../assets/helsinkiCard.jpg'
 
-const DestinationCard = [
+export const DestinationCard = [
   {
     name: "Paris",
     image: parisCard

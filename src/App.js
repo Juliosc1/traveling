@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar";
+import Destinations from "./pages/Destinations";
 import Home from "./pages/Home";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="">
       <Navbar />
       <Home />
+      <Destinations />
     </div>
   );
 }

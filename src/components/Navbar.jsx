@@ -31,11 +31,11 @@ const Navbar = () => {
       </div>
 
       <div className='flex justify-end sm:col-span-2 lg:col-span-1'>
-        <div className='hidden sm:flex justify-center items-center gap-2 border-2 border-orange-500 rounded-full py-2 px-4 text-orange-500 cursor-pointer'>
+        <div className='hidden sm:flex justify-center items-center gap-2 border-2 border-orange-500 rounded-full py-2 px-4 text-orange-500 cursor-pointer hover:bg-gray-50 hover:scale-105'>
           <p className='font-semibold'>Book Now</p>
           <GiAirplaneDeparture className='h-6'/>
         </div>
-        <div onClick={handleClick} className='flex sm:hidden justify-end items-center p-2 border-2 border-orange-500 rounded-full text-orange-500'>
+        <div onClick={handleClick} className='flex sm:hidden justify-end items-center p-2 border-2 border-orange-500 rounded-full text-orange-500 hover:bg-gray-100 hover:cursor-pointer'>
           {click ? 
           <AiOutlineClose className='h-6 w-6' />
           : <HiOutlineMenu className='h-6 w-6' />
@@ -46,10 +46,10 @@ const Navbar = () => {
       {
         <div className={ click ? 'fixed right-0 top-20 w-full h-full duration-500 ease-in md:hidden z-10 bg-white' : 'fixed -right-full top-20 h-full w-full duration-500 ease-out md:hidden z-10'}>
           <ul className='flex flex-col justify-center items-center py-8 text-xl text-gray-800'>
-            <li className='py-2 hover:underline hover:decoration-orange-500 hover:underline-offset-4 cursor-pointer hover:text-gray-900'>Home</li>
+            <li className='py-2 hover:underline hover:decoration-orange-500 hover:underline-offset-4 cursor-pointer hover:text-gray-900'><a href='/'>Home</a></li>
+            <li className='py-2 hover:underline hover:decoration-orange-500 hover:underline-offset-4 cursor-pointer hover:text-gray-900'><a href='/destinations'>Destinations</a></li>
+            <li className='py-2 hover:underline hover:decoration-orange-500 hover:underline-offset-4 cursor-pointer hover:text-gray-900'><a href='/tours'>Tours</a></li>
             <li className='py-2 hover:underline hover:decoration-orange-500 hover:underline-offset-4 cursor-pointer hover:text-gray-900'>About us</li>
-            <li className='py-2 hover:underline hover:decoration-orange-500 hover:underline-offset-4 cursor-pointer hover:text-gray-900'>Destination</li>
-            <li className='py-2 hover:underline hover:decoration-orange-500 hover:underline-offset-4 cursor-pointer hover:text-gray-900'>Tours</li>
             <li className='py-2 hover:underline hover:decoration-orange-500 hover:underline-offset-4 cursor-pointer hover:text-gray-900'>Blog</li>
           </ul>
         </div>

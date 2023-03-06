@@ -8,7 +8,7 @@ const Destinations = () => {
 
         <div className=''>
           <p className='font-semibold tracking-widest'>WHERE TO GO</p>  
-          <h1 className='text-5xl py-8'>Popular Destinations</h1>
+          <h1 className='text-5xl py-8 italic'>Popular Destinations</h1>
         <DestinationsList />
         </div>
 

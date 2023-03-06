@@ -29,12 +29,10 @@ const Home = () => {
         <div className='h-screen'>
           <div className='flex flex-col justify-between mt-10'>
             <h2 className='text-xl font-semibold py-4'>Explore Nearby</h2>
-            <div className='w-[400px] sm:w-[600px] md:w-[800px] grid grid-cols-4 sm:grid-cols-5 md:grid-cols-8 gap-4 border-2'>
-
+            <div className='w-[400px] sm:w-[600px] md:w-[800px] grid grid-cols-4 sm:grid-cols-5 md:grid-cols-8 gap-4 mb-2'>
                 {SmallCard.map((data, key) => (
-                  <div key={key} style={{backgroundImage: `url(${data.image})`, backgroundRepeat: "no-repeat" , backgroundSize:"cover", width: "80px", height: "80px"}} className="shrink-0 hover:scale-105"></div>
-                ))}
-            
+                  <div key={key} style={{backgroundImage: `url(${data.image})`, backgroundRepeat: "no-repeat" , backgroundSize:"cover", width: "80px", height: "80px"}} className="shrink-0 hover:scale-105 hover:cursor-pointer rounded-xl"></div>
+                ))}        
             </div>
             <button className='hidden lg:flex justify-center items-center h-10 w-40 p-2 mt-4 bg-orange-500 rounded-xl text-white hover:scale-105 shadow-md'>
               <a href='/destinations'>More Destinations</a>

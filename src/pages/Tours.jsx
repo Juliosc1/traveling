@@ -8,7 +8,7 @@ import { GiAirplaneDeparture } from 'react-icons/gi'
 
 const Tours = () => {
   return (
-    <div className='flex flex-col justify-center items-center w-full h-screen bg-gray-100'>
+    <div className='flex flex-col justify-center items-center w-full min-h-[700px] bg-gray-100'>
       <div className='grid grid-cols-1 sm:grid-cols-2 h-full w-full'>
 
         <div className='flex flex-col justify-center items-center border-2'>

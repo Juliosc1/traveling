@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div className='h-screen grid grid-cols-1 sm:grid-cols-2 object-contain'>
       <div style={{backgroundImage: `url(${TravelImg})`, backgroundRepeat: 'no-repeat', backgroundSize:"cover", width: "100%"}}
-            className="col-span-2 h-screen">
+            className="col-span-2 h-[700px]">
 
         <div className='flex flex-col justify-center items-center lg:w-[40%] mt-40 px-4 text-white bg-neutral-700 bg-opacity-60 rounded-xl'>
           <h1 className=' text-5xl font-semibold lg:text-6xl shadow-xl text-center pt-10'>Discover the Best Lovely Places</h1>
